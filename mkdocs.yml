@@ -1,0 +1,45 @@
+site_name: Anything Graph CLI
+site_url: https://anythinggraph.github.io/
+repo_url: https://github.com/AnythingGraph/anything-cli
+repo_name: AnythingGraph/anything-cli
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/index.md
+    - Connect your data: getting-started/connect-your-data.md
+    - Connect your own agent: getting-started/connect-your-own-agent.md
+    - Explore your connected data: getting-started/explore-connected-data.md
+    - Suggest a playbook structure: getting-started/suggest-playbook-structure.md
+    - Define access rules (ReBAC): getting-started/define-access-rules.md
+    - Create a playbook with your agent: getting-started/create-playbook-with-agent.md
+    - Govern your agent with playbooks: getting-started/govern-agent-with-playbooks.md
+  - Connectors:
+    - Overview: connectors/index.md
+    - PostgreSQL: connectors/postgresql.md
+    - MySQL / MariaDB: connectors/mysql.md
+    - SQL Server: connectors/sql-server.md
+    - MongoDB: connectors/mongodb.md
+    - Salesforce: connectors/salesforce.md
+    - CSV: connectors/csv.md
+    - REST / HTTP API: connectors/rest.md
+  - Playbooks:
+    - Overview: playbooks/index.md
+    - Entity mapping and relationships: playbooks/entity-mapping.md
+    - Role-Based Access Control: playbooks/role-based-access-control.md
+    - Example 1: playbooks/example-1.md
+    - Example 2: playbooks/example-2.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.expand
+    - navigation.search
+    - navigation.toc
+    - navigation.breadcrumb
+    - navigation.footer
+    - navigation.social
+    - content.code.copy
