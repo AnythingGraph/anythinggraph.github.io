@@ -1247,7 +1247,7 @@
 <li><strong>ReBAC (relationship-based access control)</strong> — grant access based on how users relate to resources (for example, team membership or ownership), not just static roles.</li>
 </ul>
 <h2 id="installation">Installation</h2>
-<p>The recommended path is the <strong>npm CLI</strong> — it clones <a href="https://github.com/AnythingGraph/AnythingGraph">anything-cli</a> to <code>~/.anythinggraph/source</code>, builds the Rust reasoning service, and starts MCP on port <code>3334</code>. You do <strong>not</strong> need to manually run <code>cargo build</code> for a normal install.</p>
+<p>The recommended path is the <strong>npm CLI</strong> — it clones <a href="https://github.com/AnythingGraph/AnythingGraph">AnythingGraph</a> to <code>~/.anythinggraph/source</code>, builds the Rust reasoning service, and starts MCP on port <code>3334</code>. You do <strong>not</strong> need to manually run <code>cargo build</code> for a normal install.</p>
 <h3 id="option-a-npm-cli-recommended">Option A — npm CLI (recommended)</h3>
 <p><strong>Requirements:</strong> Node.js 18+, <code>git</code>, and Rust <code>cargo</code> (used once during onboard to compile reasoning-service).</p>
 <pre><code class="language-bash">npm install -g @anythinggraph/cli@latest
@@ -1299,7 +1299,7 @@ anythinggraph start
 <h3 id="option-b-clone-from-source-contributors">Option B — clone from source (contributors)</h3>
 <p>For local development or contributing to the repo:</p>
 <pre><code class="language-bash">git clone https://github.com/AnythingGraph/AnythingGraph.git
-cd anything-cli
+cd AnythingGraph
 
 cp .env.example .env
 # edit connection strings — see Connect your data for details
