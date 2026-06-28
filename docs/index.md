@@ -9,7 +9,7 @@ Anything Graph provides **policy as code**, **entity and relationship mapping**,
 ## Project links
 
 - [AnythingGraph website](https://www.anythinggraph.com/) — product overview and getting started
-- [anything-cli on GitHub](https://github.com/AnythingGraph/anything-cli) — open-source CLI, reasoning service, and MCP server
+- [anything-cli on GitHub](https://github.com/AnythingGraph/AnythingGraph) — open-source CLI, reasoning service, and MCP server
 
 ## Get started
 

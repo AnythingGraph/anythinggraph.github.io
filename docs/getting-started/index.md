@@ -10,7 +10,7 @@ Anything Graph is a data governance layer between your AI agents and data source
 
 ## Installation
 
-The recommended path is the **npm CLI** — it clones [anything-cli](https://github.com/AnythingGraph/anything-cli) to `~/.anythinggraph/source`, builds the Rust reasoning service, and starts MCP on port `3334`. You do **not** need to manually run `cargo build` for a normal install.
+The recommended path is the **npm CLI** — it clones [anything-cli](https://github.com/AnythingGraph/AnythingGraph) to `~/.anythinggraph/source`, builds the Rust reasoning service, and starts MCP on port `3334`. You do **not** need to manually run `cargo build` for a normal install.
 
 ### Option A — npm CLI (recommended)
 
@@ -45,7 +45,7 @@ Next - See [Connect your data](connect-your-data.md) to configure credentials an
 Bootstrap without npm (alternative):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AnythingGraph/anything-cli/main/cli/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AnythingGraph/AnythingGraph/main/Sources/OSS/cli/install.sh | bash
 ```
 
 ### Option B — clone from source (contributors)
@@ -53,7 +53,7 @@ curl -fsSL https://raw.githubusercontent.com/AnythingGraph/anything-cli/main/cli
 For local development or contributing to the repo:
 
 ```bash
-git clone https://github.com/AnythingGraph/anything-cli.git
+git clone https://github.com/AnythingGraph/AnythingGraph.git
 cd anything-cli
 
 cp .env.example .env

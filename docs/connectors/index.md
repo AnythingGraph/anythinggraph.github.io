@@ -6,17 +6,17 @@ Pick a connector below for step-by-step setup, or start with [Connect your data]
 
 ## Currently supported adapters
 
-The adapters shipped in the repo today are the `adapter-*` crates in the [anything-cli/crates](https://github.com/AnythingGraph/anything-cli/tree/main/crates) directory:
+The adapters shipped in the repo today are the `adapter-*` crates in the [anything-cli/crates](https://github.com/AnythingGraph/AnythingGraph/tree/main/crates) directory:
 
 | Crate | Profile `adapter` | Typical sources |
 |-------|-------------------|-----------------|
-| [adapter-sql](https://github.com/AnythingGraph/anything-cli/tree/main/crates/adapter-sql) | `sql` | PostgreSQL (via sqlx) |
-| [adapter-csv](https://github.com/AnythingGraph/anything-cli/tree/main/crates/adapter-csv) | `csv` | Local CSV and flat files |
-| [adapter-soql](https://github.com/AnythingGraph/anything-cli/tree/main/crates/adapter-soql) | `soql` | Salesforce REST API |
-| [adapter-mongodb](https://github.com/AnythingGraph/anything-cli/tree/main/crates/adapter-mongodb) | `mongodb` | MongoDB collections |
-| [adapter-rest](https://github.com/AnythingGraph/anything-cli/tree/main/crates/adapter-rest) | `rest` | HTTP JSON APIs with OpenAPI specs |
+| [adapter-sql](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates/adapter-sql) | `sql` | PostgreSQL (via sqlx) |
+| [adapter-csv](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates/adapter-csv) | `csv` | Local CSV and flat files |
+| [adapter-soql](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates/adapter-soql) | `soql` | Salesforce REST API |
+| [adapter-mongodb](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates/adapter-mongodb) | `mongodb` | MongoDB collections |
+| [adapter-rest](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates/adapter-rest) | `rest` | HTTP JSON APIs with OpenAPI specs |
 
-Each adapter is a Rust crate implementing the shared [`adapter-core`](https://github.com/AnythingGraph/anything-cli/tree/main/crates/adapter-core) `DataAdapter` trait. More connectors are on the roadmap — same playbook model, different backends.
+Each adapter is a Rust crate implementing the shared [`adapter-core`](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates/adapter-core) `DataAdapter` trait. More connectors are on the roadmap — same playbook model, different backends.
 
 ## All adapters (including planned)
 

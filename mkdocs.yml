@@ -1,7 +1,7 @@
 site_name: Anything Graph CLI
 site_url: https://anythinggraph.github.io/
-repo_url: https://github.com/AnythingGraph/anything-cli
-repo_name: AnythingGraph/anything-cli
+repo_url: https://github.com/AnythingGraph/AnythingGraph
+repo_name: AnythingGraph/AnythingGraph
 
 nav:
   - Home: index.md
