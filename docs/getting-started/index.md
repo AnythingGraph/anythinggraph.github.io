@@ -10,7 +10,7 @@ Anything Graph is a data governance layer between your AI agents and data source
 
 ## Installation
 
-The recommended path is the **npm CLI** — it clones [anything-cli](https://github.com/AnythingGraph/AnythingGraph) to `~/.anythinggraph/source`, builds the Rust reasoning service, and starts MCP on port `3334`. You do **not** need to manually run `cargo build` for a normal install.
+The recommended path is the **npm CLI** — it clones [AnythingGraph](https://github.com/AnythingGraph/AnythingGraph) to `~/.anythinggraph/source`, builds the Rust reasoning service, and starts MCP on port `3334`. You do **not** need to manually run `cargo build` for a normal install.
 
 ### Option A — npm CLI (recommended)
 
@@ -54,7 +54,7 @@ For local development or contributing to the repo:
 
 ```bash
 git clone https://github.com/AnythingGraph/AnythingGraph.git
-cd anything-cli
+cd AnythingGraph
 
 cp .env.example .env
 # edit connection strings — see Connect your data for details

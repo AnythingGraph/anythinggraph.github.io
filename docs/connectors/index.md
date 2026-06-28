@@ -6,7 +6,7 @@ Pick a connector below for step-by-step setup, or start with [Connect your data]
 
 ## Currently supported adapters
 
-The adapters shipped in the repo today are the `adapter-*` crates in the [anything-cli/crates](https://github.com/AnythingGraph/AnythingGraph/tree/main/crates) directory:
+The adapters shipped in the repo today are the `adapter-*` crates in the [ag-cli/crates](https://github.com/AnythingGraph/AnythingGraph/tree/main/Sources/OSS/ag-cli/crates) directory:
 
 | Crate | Profile `adapter` | Typical sources |
 |-------|-------------------|-----------------|
